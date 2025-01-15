@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: HOTEL-SERVICE
+
+  datasource:
+    url: ${AUTH_DB_URL:jdbc:postgresql://localhost:5432/hotel}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:142536}
+
